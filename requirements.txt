@@ -1,0 +1,6 @@
+# unit test, syntax check, profiling
+flake8>=3.7.8
+pytest>=5.3.1
+memory_profiler>=0.54.0
+# dependencies
+# examples
