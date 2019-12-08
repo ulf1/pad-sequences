@@ -1,10 +1,13 @@
+import random
 
 
 def pad_sequences_multi(sequences: list,
                         padding: str = 'pre',
                         truncating: str = 'pre',
                         maxlen: int = None,
-                        value: list = None) -> list:
+                        value: list = None,
+                        droprate: float = 0.0,
+                        random_state: int = None) -> list:
     # use the len of the longest sequence
     if maxlen is None:
         maxlen = max([len(seq) for seq in sequences])
@@ -15,6 +18,9 @@ def pad_sequences_multi(sequences: list,
     if not isinstance(value, (list, tuple)):
         value = [value for _ in range(len(sequences[0][0]))]
 
+    if random_state:
+        random.seed(random_state)
+
     # loop over all sequences
     padded = []
     for seq in sequences:
@@ -24,6 +30,12 @@ def pad_sequences_multi(sequences: list,
 
         # convert tuple to list
         seq = list(seq)
+
+        # drop steps
+        if (droprate > 0.0) and (len(seq) > 1):
+            seqtmp = [s for s in seq if random.random() > droprate]
+            if len(seqtmp) > 0:
+                seq = seqtmp
 
         # Padding
         if padding == 'pre':

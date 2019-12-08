@@ -63,7 +63,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip3 install --upgrade pip
 pip3 install -r requirements.txt
-pip3 install jupyterlab # "tensorflow==2.0.0-beta1" "torch==1.1.0" "numpy>=1.14.5"
+pip3 install jupyterlab "tensorflow==2.0.0-beta1" "torch==1.1.0" "numpy>=1.14.5"
 ```
 
 (If your git repo is stored in a folder with whitespaces, then don't use the subfolder `.venv`. Use an absolute path without whitespaces.)

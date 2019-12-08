@@ -7,7 +7,7 @@ def read(fname):
 
 
 setup(name='pad-sequences-multi',
-      version='0.1.0',
+      version='0.2.0',
       description='pad variable length sequences with multiples features',
       long_description=read('README.md'),
       long_description_content_type='text/markdown',
