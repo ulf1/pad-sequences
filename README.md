@@ -19,7 +19,7 @@ The `pad-sequences-multi` [git repo](http://github.com/ulf1/pad-sequences-multi)
 is a private repo
 
 ```
-pip install git+git@github.com:ulf1/pad-sequences-multi.git
+pip install git+ssh://git@github.com/ulf1/pad-sequences-multi.git
 ```
 
 
