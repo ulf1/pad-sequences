@@ -15,7 +15,7 @@ setup(name='pad-sequences-multi',
       author='Ulf Hamster',
       author_email='554c46@gmail.com',
       license='MIT',
-      packages=['pad-sequences-multi'],
+      packages=['pad_sequences_multi'],
       install_requires=[
           'setuptools>=40.0.0'],
       python_requires='>=3.6',
