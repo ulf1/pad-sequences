@@ -1,3 +1,8 @@
+# 0.2.1 / 2020-02-17
+
+   * prepared for GemFury pypi server
+   * downgrade to py3.5 from py3.6
+
 # 0.2.0 / 2019-12-08
 
   * drop rate added 
