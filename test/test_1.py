@@ -1,4 +1,4 @@
-from pad_sequences_multi import pad_sequences_multi
+from pad_sequences import pad_sequences_multi
 
 
 def test1():

@@ -1,12 +1,12 @@
-# pad-sequences-multi
+# pad-sequences
 Pad variable length sequences with multiples features.
 
 ## Installation via pip
-The `pad-sequences-multi` [git repo](http://github.com/ulf1/pad-sequences-multi) 
-is available as [PyPi package](https://pypi.org/project/pad-sequences-multi)
+The `pad-sequences` [git repo](http://github.com/ulf1/pad-sequences) 
+is available as [PyPi package](https://pypi.org/project/pad-sequences)
 
 ```
-pip install "pad-sequences-multi>=0.3.0"
+pip install "pad-sequences>=0.3.0"
 ```
 
 
@@ -39,7 +39,7 @@ X = tf.reshape(padded, [n_samples, n_timesteps, n_features])
 ```
 
 
-Check the [examples](http://github.com/ulf1/pad-sequences-multi/examples) folder for notebooks.
+Check the [examples](http://github.com/ulf1/pad-sequences/examples) folder for notebooks.
 
 
 ## Commands
@@ -73,4 +73,4 @@ rm -r .venv
 
 
 ## Debugging
-* Notebooks to profile python code are in the [profile](http://github.com/ulf1/pad-sequences-multi/profile) folder
+* Notebooks to profile python code are in the [profile](http://github.com/ulf1/pad-sequences/profile) folder
