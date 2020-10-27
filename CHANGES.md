@@ -1,3 +1,7 @@
+# 0.3.0 / 2020-10-27
+
+  * prepare for pypi server
+
 # 0.2.1 / 2020-02-17
 
    * prepared for GemFury pypi server

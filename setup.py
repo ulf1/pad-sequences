@@ -6,8 +6,8 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 
-setup(name='pad-sequences-multi',
-      version='0.2.1',
+setup(name='pad-sequences',
+      version='0.3.0',
       description='pad variable length sequences with multiples features',
       long_description=read('README.md'),
       long_description_content_type='text/markdown',
@@ -15,7 +15,7 @@ setup(name='pad-sequences-multi',
       author='Ulf Hamster',
       author_email='554c46@gmail.com',
       license='MIT',
-      packages=['pad_sequences_multi'],
+      packages=['pad_sequences'],
       install_requires=[
           'setuptools>=40.0.0'],
       python_requires='>=3.5',

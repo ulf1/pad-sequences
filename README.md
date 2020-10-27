@@ -1,42 +1,19 @@
-# pad-sequences-multi
+# pad-sequences
 Pad variable length sequences with multiples features.
 
 ## Installation via pip
-The `pad-sequences-multi` [git repo](http://github.com/ulf1/pad-sequences-multi) 
-is a private repo
+The `pad-sequences` [git repo](http://github.com/ulf1/pad-sequences) 
+is available as [PyPi package](https://pypi.org/project/pad-sequences)
 
 ```
-pip install git+ssh://git@github.com/ulf1/pad-sequences-multi.git
-```
-
-with GemFury
-
-```
-FURY_AUTH="<deploy token>"
-pip install pad-sequences-multi --extra-index-url https://${FURY_AUTH}:@pypi.fury.io/kmedian/
-```
-
-## Install via requirements.txt
-when using `pad-sequences-multi==0.2.1` in `requirements.txt`, 
-add on top of `requirements.txt`:
-
-```
-# Access private packages on gemfury
---index-url https://${FURY_AUTH}:@pypi.fury.io/kmedian/
-...
-```
-
-Set `FURY_AUTH` with the deploy token before pip commands:
-
-```
-FURY_AUTH="<deploy token>" pip install -r requirements.txt
+pip install "pad-sequences>=0.3.0"
 ```
 
 
 ## Usage
 
 ```
-from pad_sequences_multi import pad_sequences_multi
+from pad_sequences import pad_sequences_multi
 import tensorflow as tf
 # import torch
 
@@ -62,7 +39,7 @@ X = tf.reshape(padded, [n_samples, n_timesteps, n_features])
 ```
 
 
-Check the [examples](http://github.com/ulf1/pad-sequences-multi/examples) folder for notebooks.
+Check the [examples](http://github.com/ulf1/pad-sequences/examples) folder for notebooks.
 
 
 ## Commands
@@ -72,8 +49,8 @@ Install a virtual environment
 python3 -m venv .venv
 source .venv/bin/activate
 pip3 install --upgrade pip
-pip3 install -r requirements.txt
-pip3 install jupyterlab "tensorflow==2.0.0-beta1" "torch==1.1.0" "numpy>=1.14.5"
+pip3 install -r requirements-dev.txt
+pip3 install -r requirements-demo.txt
 ```
 
 (If your git repo is stored in a folder with whitespaces, then don't use the subfolder `.venv`. Use an absolute path without whitespaces.)
@@ -83,7 +60,7 @@ pip3 install jupyterlab "tensorflow==2.0.0-beta1" "torch==1.1.0" "numpy>=1.14.5"
 * Jupyter for the examples: `jupyter lab`
 * Check syntax: `flake8 --ignore=F401 --exclude=$(grep -v '^#' .gitignore | xargs | sed -e 's/ /,/g')`
 * Run Unit Tests: `pytest`
-* Upload to PyPi with twine: `python setup.py sdist && twine upload -r fury dist/*`
+* Upload to PyPi with twine: `python setup.py sdist && twine upload -r pypi dist/*`
 
 Clean up 
 
@@ -96,4 +73,4 @@ rm -r .venv
 
 
 ## Debugging
-* Notebooks to profile python code are in the [profile](http://github.com/ulf1/pad-sequences-multi/profile) folder
+* Notebooks to profile python code are in the [profile](http://github.com/ulf1/pad-sequences/profile) folder
