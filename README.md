@@ -13,7 +13,7 @@ pip install "pad-sequences-multi>=0.3.0"
 ## Usage
 
 ```
-from pad_sequences_multi import pad_sequences_multi
+from pad_sequences import pad_sequences_multi
 import tensorflow as tf
 # import torch
 
