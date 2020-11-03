@@ -60,7 +60,7 @@ pip3 install -r requirements-demo.txt
 * Jupyter for the examples: `jupyter lab`
 * Check syntax: `flake8 --ignore=F401 --exclude=$(grep -v '^#' .gitignore | xargs | sed -e 's/ /,/g')`
 * Run Unit Tests: `pytest`
-* Upload to PyPi with twine: `python setup.py sdist && twine upload -r pypi dist/*`
+* Upload to PyPi with twine: `python setup.py sdist && twine upload -r pypi dist/*`  (requires `twine`)
 
 Clean up 
 

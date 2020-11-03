@@ -1,3 +1,7 @@
+# 0.4.0 / 2020-11-03
+
+  * pad sequences that are adjacency matrices
+
 # 0.3.0 / 2020-10-27
 
   * prepare for pypi server
