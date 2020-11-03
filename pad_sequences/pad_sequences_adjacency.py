@@ -8,8 +8,8 @@ def pad_sequences_adjacency(sequences: List[List[Tuple[int, int]]],
                             truncating: Optional[str] = 'pre'
                             ) -> List[List[Tuple[int, int]]]:
     """Pad and trunc sequences of tokens with their respective adjuncts to
-        other tokens as features. 
-    
+        other tokens as features.
+
     Parameters:
     -----------
     sequences : List[List[List[Number]]]
@@ -49,7 +49,7 @@ def pad_sequences_adjacency(sequences: List[List[Tuple[int, int]]],
                 # shift row & col indicies to upper/left (truncating='pre')
                 n_shift = seqlen[k] - maxlen
                 new_pairs = [(r - n_shift, c - n_shift) for r, c in idx_pairs]
-                new_pairs = [(r, c) for r, c in new_pairs 
+                new_pairs = [(r, c) for r, c in new_pairs
                              if (r >= 0) and (c >= 0)]
 
         elif seqlen[k] < maxlen:  # padding
@@ -59,7 +59,7 @@ def pad_sequences_adjacency(sequences: List[List[Tuple[int, int]]],
                 new_pairs = [(r + n_shift, c + n_shift) for r, c in idx_pairs]
             else:
                 new_pairs = idx_pairs
-        
+
         # sequence is done
         padded.append(new_pairs)
 
