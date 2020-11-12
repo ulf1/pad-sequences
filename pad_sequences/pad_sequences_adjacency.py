@@ -59,6 +59,8 @@ def pad_sequences_adjacency(sequences: List[List[Tuple[int, int]]],
                 new_pairs = [(r + n_shift, c + n_shift) for r, c in idx_pairs]
             else:
                 new_pairs = idx_pairs
+        else:
+            new_pairs = idx_pairs
 
         # sequence is done
         padded.append(new_pairs)
