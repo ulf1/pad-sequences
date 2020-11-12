@@ -12,7 +12,7 @@ def pad_sequences_adjacency(sequences: List[List[Tuple[int, int]]],
 
     Parameters:
     -----------
-    sequences : List[List[List[Number]]]
+    sequences : List[List[Tuple[int, int]]]
         A list of sequences of index pairs (Dictionary Of Key, DOK).
         - It's a list of sequences, e.g. [seq1, seq2, ...]
         - Each sequence contains index pairs, e.g. seq=[(r1,c1), (r2,c1), ...]
