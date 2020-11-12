@@ -1,3 +1,7 @@
+# 0.5.0 / 2020-11-12
+
+  * pad sparse mask sequences
+
 # 0.4.0 / 2020-11-03
 
   * pad sequences that are adjacency matrices
