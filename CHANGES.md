@@ -1,3 +1,7 @@
+# 0.6.0 / 2020-04-08
+
+  * Python 3.5 support stopped. Python 3.6 is required now.
+
 # 0.5.0 / 2020-11-12
 
   * pad sparse mask sequences
