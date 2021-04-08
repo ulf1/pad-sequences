@@ -14,4 +14,4 @@ setup(name='pad-sequences',
       install_requires=[
           'setuptools>=40.0.0'],
       python_requires='>=3.5',
-      zip_safe=False)
+      zip_safe=True)
