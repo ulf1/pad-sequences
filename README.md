@@ -8,7 +8,7 @@ The `pad-sequences` [git repo](http://github.com/ulf1/pad-sequences)
 is available as [PyPi package](https://pypi.org/project/pad-sequences)
 
 ```sh
-pip install "pad-sequences>=0.3.0"
+pip install "pad-sequences>=0.6.0"
 ```
 
 
