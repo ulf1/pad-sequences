@@ -1,6 +1,7 @@
 # 0.6.0 / 2020-04-08
 
   * Python 3.5 support stopped. Python 3.6 is required now.
+  * MIT License changed to Apache 2.0
 
 # 0.5.0 / 2020-11-12
 
