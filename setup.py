@@ -1,5 +1,4 @@
 from setuptools import setup
-import pypandoc
 
 
 def get_version(path):
@@ -15,7 +14,7 @@ def get_version(path):
 setup(name='pad-sequences',
       version=get_version("pad_sequences/__init__.py"),
       description='pad variable length sequences with multiples features',
-      long_description=pypandoc.convert('README.md', 'rst'),
+      long_description='README.rst',
       url='http://github.com/ulf1/pad-sequences-multi',
       author='Ulf Hamster',
       author_email='554c46@gmail.com',
@@ -23,4 +22,4 @@ setup(name='pad-sequences',
       packages=['pad_sequences'],
       # install_requires=[],
       python_requires='>=3.6',
-      zip_safe=False)
+      zip_safe=True)

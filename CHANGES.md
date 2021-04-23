@@ -1,3 +1,8 @@
+# 0.6.1 / 2020-04-23
+
+  * Test multiple python versions
+  * Installation problems: remove pandoc from setup.py
+
 # 0.6.0 / 2020-04-08
 
   * Python 3.5 support stopped. Python 3.6 is required now.
