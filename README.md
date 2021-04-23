@@ -1,4 +1,6 @@
 [![PyPI version](https://badge.fury.io/py/pad-sequences.svg)](https://badge.fury.io/py/pad-sequences)
+[![pad-sequences](https://snyk.io/advisor/python/pad-sequences/badge.svg)](https://snyk.io/advisor/python/pad-sequences)
+
 
 # pad-sequences
 Pad variable length sequences with multiples features.
