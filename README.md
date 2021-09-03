@@ -2,7 +2,6 @@
 [![pad-sequences](https://snyk.io/advisor/python/pad-sequences/badge.svg)](https://snyk.io/advisor/python/pad-sequences)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/ulf1/pad-sequences.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ulf1/pad-sequences/alerts/)
 [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/ulf1/pad-sequences.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ulf1/pad-sequences/context:python)
-[![deepcode](https://www.deepcode.ai/api/gh/badge?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybTEiOiJnaCIsIm93bmVyMSI6InVsZjEiLCJyZXBvMSI6InBhZC1zZXF1ZW5jZXMiLCJpbmNsdWRlTGludCI6ZmFsc2UsImF1dGhvcklkIjoyOTQ1MiwiaWF0IjoxNjE5NTQwMzIyfQ.iKciKcAPZiAqjT5iXJ2ad0ZX055zGkyB34VHW4QRG7o)](https://www.deepcode.ai/app/gh/ulf1/pad-sequences/_/dashboard?utm_content=gh%2Fulf1%2Fpad-sequences)
 
 # pad-sequences
 Pad variable length sequences with multiples features.
