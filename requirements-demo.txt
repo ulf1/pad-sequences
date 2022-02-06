@@ -1,5 +1,5 @@
 jupyterlab==2.*
 tensorflow==2.*
-numpy<1.19.0,>=1.16.0
-torch==1.*
-spacy==2.3.*
+numpy>=1.22.2,<2
+torch==1.*,<2
+spacy==2.3.*,<3
