@@ -1,4 +1,5 @@
 [![PyPI version](https://badge.fury.io/py/pad-sequences.svg)](https://badge.fury.io/py/pad-sequences)
+[![PyPi downloads](https://img.shields.io/pypi/dm/pad-sequences)](https://img.shields.io/pypi/dm/pad-sequences)
 [![pad-sequences](https://snyk.io/advisor/python/pad-sequences/badge.svg)](https://snyk.io/advisor/python/pad-sequences)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/ulf1/pad-sequences.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ulf1/pad-sequences/alerts/)
 [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/ulf1/pad-sequences.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ulf1/pad-sequences/context:python)
