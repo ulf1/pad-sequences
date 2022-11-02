@@ -3,3 +3,4 @@ tensorflow==2.*
 numpy>=1.22.2,<2
 torch==1.*,<2
 spacy==2.3.*,<3
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
